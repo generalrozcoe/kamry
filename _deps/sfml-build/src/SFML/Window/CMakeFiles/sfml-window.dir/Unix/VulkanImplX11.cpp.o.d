@@ -1,8 +1,8 @@
 _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VulkanImplX11.cpp.o: \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/Unix/VulkanImplX11.cpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/Unix/VulkanImplX11.cpp \
  /usr/include/stdc-predef.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/Unix/Display.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/WindowEnums.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/Unix/Display.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/WindowEnums.hpp \
  /usr/include/X11/Xlib.h /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -150,17 +150,17 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VulkanImplX11.c
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/12/bits/charconv.h \
  /usr/include/c++/12/bits/basic_string.tcc \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/VulkanImpl.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Vulkan.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/VulkanImpl.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Vulkan.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Config.hpp \
  /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
  /usr/include/c++/12/bits/vector.tcc \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
  /usr/include/dlfcn.h /usr/include/x86_64-linux-gnu/bits/dlfcn.h \
  /usr/include/x86_64-linux-gnu/bits/dl_find_object.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/extlibs/headers/vulkan/vulkan.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/extlibs/headers/vulkan/vk_platform.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/extlibs/headers/vulkan/vulkan_core.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/extlibs/headers/vulkan/vulkan_xlib.h
+ /home/rozcoe/kamry/code/_deps/sfml-src/extlibs/headers/vulkan/vulkan.h \
+ /home/rozcoe/kamry/code/_deps/sfml-src/extlibs/headers/vulkan/vk_platform.h \
+ /home/rozcoe/kamry/code/_deps/sfml-src/extlibs/headers/vulkan/vulkan_core.h \
+ /home/rozcoe/kamry/code/_deps/sfml-src/extlibs/headers/vulkan/vulkan_xlib.h

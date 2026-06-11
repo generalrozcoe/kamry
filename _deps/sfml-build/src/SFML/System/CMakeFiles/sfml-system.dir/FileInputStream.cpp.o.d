@@ -1,9 +1,9 @@
 _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.o: \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/System/FileInputStream.cpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/System/FileInputStream.cpp \
  /usr/include/stdc-predef.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Exception.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Exception.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Config.hpp \
  /usr/include/c++/12/stdexcept /usr/include/c++/12/exception \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -122,8 +122,8 @@ _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/12/bits/charconv.h \
  /usr/include/c++/12/bits/basic_string.tcc \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/FileInputStream.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/InputStream.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/FileInputStream.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/InputStream.hpp \
  /usr/include/c++/12/optional \
  /usr/include/c++/12/bits/enable_special_members.h \
  /usr/include/c++/12/filesystem /usr/include/c++/12/bits/fs_fwd.h \
@@ -190,5 +190,5 @@ _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.
  /usr/include/c++/12/backward/auto_ptr.h \
  /usr/include/c++/12/pstl/glue_memory_defs.h \
  /usr/include/c++/12/pstl/execution_defs.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/System/Utils.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/System/Utils.hpp \
  /usr/include/c++/12/cstddef

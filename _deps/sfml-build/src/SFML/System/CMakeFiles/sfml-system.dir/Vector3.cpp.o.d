@@ -1,10 +1,10 @@
 _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Vector3.cpp.o: \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/System/Vector3.cpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/System/Vector3.cpp \
  /usr/include/stdc-predef.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector3.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Config.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector3.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector3.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector3.inl \
  /usr/include/c++/12/cassert \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \

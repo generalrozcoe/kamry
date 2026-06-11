@@ -1,10 +1,10 @@
 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o: \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Graphics/GLCheck.cpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Graphics/GLCheck.cpp \
  /usr/include/stdc-predef.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Graphics/GLCheck.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Config.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Graphics/GLExtensions.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/extlibs/headers/glad/include/glad/gl.h \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Graphics/GLCheck.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Graphics/GLExtensions.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/extlibs/headers/glad/include/glad/gl.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -20,8 +20,8 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Err.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Err.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Export.hpp \
  /usr/include/c++/12/iosfwd \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \

@@ -1,10 +1,10 @@
 _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.o: \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/GlContext.cpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/GlContext.cpp \
  /usr/include/stdc-predef.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Context.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Config.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Context.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
  /usr/include/c++/12/memory /usr/include/c++/12/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -117,22 +117,22 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.o: \
  /usr/include/c++/12/backward/auto_ptr.h \
  /usr/include/c++/12/pstl/glue_memory_defs.h \
  /usr/include/c++/12/pstl/execution_defs.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector2.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Angle.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Angle.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Angle.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Angle.inl \
  /usr/include/c++/12/cassert /usr/include/assert.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector2.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector2.inl \
  /usr/include/c++/12/string_view /usr/include/c++/12/bits/char_traits.h \
  /usr/include/c++/12/cstdint /usr/include/c++/12/bits/range_access.h \
  /usr/include/c++/12/initializer_list \
  /usr/include/c++/12/bits/ostream_insert.h \
  /usr/include/c++/12/bits/cxxabi_forced.h \
  /usr/include/c++/12/bits/string_view.tcc \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/GlContext.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Err.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/extlibs/headers/glad/include/glad/gl.h \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/GlContext.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Err.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/extlibs/headers/glad/include/glad/gl.h \
  /usr/include/c++/12/algorithm /usr/include/c++/12/bits/stl_algo.h \
  /usr/include/c++/12/bits/algorithmfwd.h \
  /usr/include/c++/12/bits/stl_heap.h \
@@ -207,10 +207,10 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.o: \
  /usr/include/c++/12/bits/stl_bvector.h \
  /usr/include/c++/12/bits/vector.tcc /usr/include/c++/12/cstring \
  /usr/include/string.h /usr/include/strings.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/Unix/GlxContext.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/WindowEnums.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/Unix/GlxContext.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/WindowEnums.hpp \
  /usr/include/X11/Xlib.h /usr/include/X11/X.h \
  /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/extlibs/headers/glad/include/glad/glx.h \
+ /home/rozcoe/kamry/code/_deps/sfml-src/extlibs/headers/glad/include/glad/glx.h \
  /usr/include/X11/Xutil.h /usr/include/X11/keysym.h \
  /usr/include/X11/keysymdef.h /usr/include/inttypes.h

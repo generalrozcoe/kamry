@@ -1,11 +1,11 @@
 _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Vector2.cpp.o: \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/System/Vector2.cpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/System/Vector2.cpp \
  /usr/include/stdc-predef.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector2.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Config.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Angle.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Angle.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Angle.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Angle.inl \
  /usr/include/c++/12/cassert \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -18,7 +18,7 @@ _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Vector2.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/cpu_defines.h \
  /usr/include/c++/12/pstl/pstl_config.h /usr/include/assert.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector2.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector2.inl \
  /usr/include/c++/12/type_traits /usr/include/c++/12/cmath \
  /usr/include/c++/12/bits/cpp_type_traits.h \
  /usr/include/c++/12/ext/type_traits.h /usr/include/math.h \

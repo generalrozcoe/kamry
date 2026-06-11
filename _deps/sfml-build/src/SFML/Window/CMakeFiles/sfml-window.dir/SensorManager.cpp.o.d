@@ -1,13 +1,13 @@
 _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.o: \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/SensorManager.cpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/SensorManager.cpp \
  /usr/include/stdc-predef.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/SensorManager.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Sensor.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Config.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector3.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector3.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/SensorManager.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Sensor.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector3.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector3.inl \
  /usr/include/c++/12/cassert \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -20,9 +20,9 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.o:
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/cpu_defines.h \
  /usr/include/c++/12/pstl/pstl_config.h /usr/include/assert.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/SensorImpl.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/Unix/SensorImpl.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/System/EnumArray.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/SensorImpl.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/Unix/SensorImpl.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/System/EnumArray.hpp \
  /usr/include/c++/12/array /usr/include/c++/12/compare \
  /usr/include/c++/12/initializer_list /usr/include/c++/12/type_traits \
  /usr/include/c++/12/bits/functexcept.h \
@@ -42,7 +42,7 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.o:
  /usr/include/c++/12/bits/predefined_ops.h \
  /usr/include/c++/12/bits/range_access.h /usr/include/c++/12/cstddef \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Err.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Err.hpp \
  /usr/include/c++/12/iosfwd /usr/include/c++/12/bits/stringfwd.h \
  /usr/include/c++/12/bits/memoryfwd.h /usr/include/c++/12/bits/postypes.h \
  /usr/include/c++/12/cwchar /usr/include/wchar.h \

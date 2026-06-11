@@ -1,11 +1,11 @@
 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o: \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Graphics/RectangleShape.cpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Graphics/RectangleShape.cpp \
  /usr/include/stdc-predef.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/RectangleShape.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Config.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Shape.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/RectangleShape.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Shape.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
  /usr/include/c++/12/cstdint \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -26,16 +26,16 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.c
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Color.inl \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Drawable.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector2.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Angle.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Angle.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Color.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Drawable.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Angle.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Angle.inl \
  /usr/include/c++/12/cassert /usr/include/assert.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector2.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector2.inl \
  /usr/include/c++/12/optional /usr/include/c++/12/type_traits \
  /usr/include/c++/12/exception /usr/include/c++/12/bits/exception.h \
  /usr/include/c++/12/bits/exception_ptr.h \
@@ -54,12 +54,12 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.c
  /usr/include/c++/12/bits/concept_check.h \
  /usr/include/c++/12/debug/assertions.h \
  /usr/include/c++/12/bits/utility.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/RenderStates.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/CoordinateType.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/StencilMode.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Transform.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/RenderStates.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/CoordinateType.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/StencilMode.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Transform.hpp \
  /usr/include/c++/12/array /usr/include/c++/12/compare \
  /usr/include/c++/12/bits/functexcept.h \
  /usr/include/c++/12/bits/stl_algobase.h \
@@ -71,11 +71,11 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.c
  /usr/include/c++/12/bits/ptr_traits.h /usr/include/c++/12/debug/debug.h \
  /usr/include/c++/12/bits/predefined_ops.h \
  /usr/include/c++/12/bits/range_access.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Transform.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Transform.inl \
  /usr/include/c++/12/cstddef \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Transformable.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/VertexArray.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Vertex.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Transformable.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/VertexArray.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Vertex.hpp \
  /usr/include/c++/12/vector /usr/include/c++/12/bits/allocator.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
  /usr/include/c++/12/bits/new_allocator.h \

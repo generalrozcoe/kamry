@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rozcoe/dash-sfml
+CMAKE_SOURCE_DIR = /home/rozcoe/kamry/code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rozcoe/dash-sfml
+CMAKE_BINARY_DIR = /home/rozcoe/kamry/code
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/rozcoe/dash-sfml && $(CMAKE_COMMAND) -E cmake_progress_start /home/rozcoe/dash-sfml/CMakeFiles /home/rozcoe/dash-sfml/_deps/sfml-build/src/SFML//CMakeFiles/progress.marks
-	cd /home/rozcoe/dash-sfml && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sfml-build/src/SFML/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rozcoe/dash-sfml/CMakeFiles 0
+	cd /home/rozcoe/kamry/code && $(CMAKE_COMMAND) -E cmake_progress_start /home/rozcoe/kamry/code/CMakeFiles /home/rozcoe/kamry/code/_deps/sfml-build/src/SFML//CMakeFiles/progress.marks
+	cd /home/rozcoe/kamry/code && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sfml-build/src/SFML/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rozcoe/kamry/code/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/rozcoe/dash-sfml && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sfml-build/src/SFML/clean
+	cd /home/rozcoe/kamry/code && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sfml-build/src/SFML/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,17 +148,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/rozcoe/dash-sfml && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sfml-build/src/SFML/preinstall
+	cd /home/rozcoe/kamry/code && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sfml-build/src/SFML/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/rozcoe/dash-sfml && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sfml-build/src/SFML/preinstall
+	cd /home/rozcoe/kamry/code && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sfml-build/src/SFML/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/rozcoe/dash-sfml && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/rozcoe/kamry/code && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -184,6 +184,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/rozcoe/dash-sfml && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/rozcoe/kamry/code && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

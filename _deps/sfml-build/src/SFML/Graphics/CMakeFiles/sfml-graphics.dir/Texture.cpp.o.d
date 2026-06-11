@@ -1,10 +1,10 @@
 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o: \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Graphics/Texture.cpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Graphics/Texture.cpp \
  /usr/include/stdc-predef.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Graphics/GLCheck.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Config.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Graphics/GLExtensions.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/extlibs/headers/glad/include/glad/gl.h \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Graphics/GLCheck.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Graphics/GLExtensions.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/extlibs/headers/glad/include/glad/gl.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -20,8 +20,8 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Err.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Err.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Export.hpp \
  /usr/include/c++/12/iosfwd \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -154,19 +154,19 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o: \
  /usr/include/c++/12/bits/locale_facets.tcc \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Image.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Color.inl \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector2.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Angle.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Angle.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Image.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Color.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Angle.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Angle.inl \
  /usr/include/c++/12/cassert /usr/include/assert.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector2.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector2.inl \
  /usr/include/c++/12/optional \
  /usr/include/c++/12/bits/enable_special_members.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
  /usr/include/c++/12/filesystem /usr/include/c++/12/bits/fs_fwd.h \
  /usr/include/c++/12/bits/chrono.h /usr/include/c++/12/ratio \
  /usr/include/c++/12/limits /usr/include/c++/12/ctime \
@@ -193,10 +193,10 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o: \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
  /usr/include/c++/12/bits/vector.tcc /usr/include/c++/12/cstddef \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Texture.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/CoordinateType.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Texture.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/CoordinateType.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Export.hpp \
  /usr/include/c++/12/memory /usr/include/c++/12/bits/stl_tempbuf.h \
  /usr/include/c++/12/bits/stl_raw_storage_iter.h \
  /usr/include/c++/12/bits/align.h /usr/include/c++/12/bit \
@@ -206,36 +206,36 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o: \
  /usr/include/c++/12/backward/auto_ptr.h \
  /usr/include/c++/12/pstl/glue_memory_defs.h \
  /usr/include/c++/12/pstl/execution_defs.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Graphics/TextureSaver.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Context.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Window.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/WindowBase.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Vulkan.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/WindowEnums.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Time.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Graphics/TextureSaver.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Context.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Window.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/WindowBase.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Vulkan.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/WindowEnums.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Time.hpp \
  /usr/include/c++/12/chrono \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Time.inl \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/WindowBase.inl \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Event.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Joystick.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/String.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Utf.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Time.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/WindowBase.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Event.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Joystick.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/String.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Utf.hpp \
  /usr/include/c++/12/array /usr/include/c++/12/compare \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Utf.inl \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/String.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Utf.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/String.inl \
  /usr/include/c++/12/iterator /usr/include/c++/12/bits/stream_iterator.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Keyboard.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Mouse.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Sensor.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector3.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector3.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Keyboard.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Mouse.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Sensor.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector3.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector3.inl \
  /usr/include/c++/12/variant \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Event.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Event.inl \
  /usr/include/c++/12/utility /usr/include/c++/12/bits/stl_relops.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Clock.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Exception.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Clock.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Exception.hpp \
  /usr/include/c++/12/algorithm /usr/include/c++/12/bits/stl_algo.h \
  /usr/include/c++/12/bits/algorithmfwd.h \
  /usr/include/c++/12/bits/stl_heap.h \

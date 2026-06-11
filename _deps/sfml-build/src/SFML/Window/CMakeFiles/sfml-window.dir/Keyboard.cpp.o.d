@@ -1,15 +1,15 @@
 _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.o: \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/Keyboard.cpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/Keyboard.cpp \
  /usr/include/stdc-predef.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/InputImpl.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Config.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Keyboard.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Mouse.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector2.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Angle.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Angle.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/InputImpl.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Keyboard.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Mouse.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Angle.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Angle.inl \
  /usr/include/c++/12/cassert \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -22,9 +22,9 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/cpu_defines.h \
  /usr/include/c++/12/pstl/pstl_config.h /usr/include/assert.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector2.inl \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/String.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Utf.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector2.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/String.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Utf.hpp \
  /usr/include/c++/12/array /usr/include/c++/12/compare \
  /usr/include/c++/12/initializer_list /usr/include/c++/12/type_traits \
  /usr/include/c++/12/bits/functexcept.h \
@@ -162,7 +162,7 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.o: \
  /usr/include/libintl.h /usr/include/c++/12/bits/codecvt.h \
  /usr/include/c++/12/bits/locale_facets_nonio.tcc \
  /usr/include/c++/12/bits/locale_conv.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Utf.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Utf.inl \
  /usr/include/c++/12/cstddef \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/String.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/String.inl \
  /usr/include/c++/12/iterator /usr/include/c++/12/bits/stream_iterator.h

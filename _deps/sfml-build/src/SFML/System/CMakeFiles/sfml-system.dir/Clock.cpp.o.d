@@ -1,9 +1,9 @@
 _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o: \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/System/Clock.cpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/System/Clock.cpp \
  /usr/include/stdc-predef.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Clock.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Clock.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Config.hpp \
  /usr/include/c++/12/chrono /usr/include/c++/12/bits/chrono.h \
  /usr/include/c++/12/ratio /usr/include/c++/12/type_traits \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
@@ -45,6 +45,6 @@ _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o: \
  /usr/include/c++/12/ext/numeric_traits.h \
  /usr/include/c++/12/bits/cpp_type_traits.h \
  /usr/include/c++/12/ext/type_traits.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Time.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Time.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Time.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Time.inl \
  /usr/include/c++/12/cassert /usr/include/assert.h

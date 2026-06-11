@@ -1,13 +1,13 @@
 _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.o: \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/JoystickManager.cpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/JoystickManager.cpp \
  /usr/include/stdc-predef.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/JoystickManager.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Joystick.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Config.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/String.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Utf.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/JoystickManager.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Joystick.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/String.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Utf.hpp \
  /usr/include/c++/12/array /usr/include/c++/12/compare \
  /usr/include/c++/12/initializer_list \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
@@ -156,14 +156,14 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.
  /usr/include/libintl.h /usr/include/c++/12/bits/codecvt.h \
  /usr/include/c++/12/bits/locale_facets_nonio.tcc \
  /usr/include/c++/12/bits/locale_conv.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Utf.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Utf.inl \
  /usr/include/c++/12/cstddef \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/String.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/String.inl \
  /usr/include/c++/12/iterator /usr/include/c++/12/bits/stream_iterator.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/JoystickImpl.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/System/EnumArray.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/JoystickImpl.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/System/EnumArray.hpp \
  /usr/include/c++/12/cassert /usr/include/assert.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/Unix/JoystickImpl.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/Unix/JoystickImpl.hpp \
  /usr/include/linux/input.h /usr/include/x86_64-linux-gnu/sys/time.h \
  /usr/include/x86_64-linux-gnu/sys/ioctl.h \
  /usr/include/x86_64-linux-gnu/bits/ioctls.h \

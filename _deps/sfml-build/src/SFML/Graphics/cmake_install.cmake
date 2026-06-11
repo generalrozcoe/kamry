@@ -1,4 +1,4 @@
-# Install script for directory: /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Graphics
+# Install script for directory: /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Graphics
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,20 +43,20 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "devel" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/rozcoe/dash-sfml/_deps/sfml-build/lib/libsfml-graphics.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/rozcoe/kamry/code/_deps/sfml-build/lib/libsfml-graphics.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/rozcoe/dash-sfml/_deps/sfml-build/src/SFML/Graphics/tools/pkg-config/sfml-graphics.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/rozcoe/kamry/code/_deps/sfml-build/src/SFML/Graphics/tools/pkg-config/sfml-graphics.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "devel" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "/home/rozcoe/dash-sfml/_deps/sfml-build/src/SFML/Graphics/SFMLGraphicsDependencies.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "/home/rozcoe/kamry/code/_deps/sfml-build/src/SFML/Graphics/SFMLGraphicsDependencies.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/rozcoe/dash-sfml/_deps/sfml-build/src/SFML/Graphics/install_local_manifest.txt"
+  file(WRITE "/home/rozcoe/kamry/code/_deps/sfml-build/src/SFML/Graphics/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

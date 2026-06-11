@@ -1,8 +1,8 @@
 _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/KeyboardImpl.cpp.o: \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/Unix/KeyboardImpl.cpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/Unix/KeyboardImpl.cpp \
  /usr/include/stdc-predef.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/Unix/Display.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/WindowEnums.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/Unix/Display.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/WindowEnums.hpp \
  /usr/include/X11/Xlib.h /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -150,19 +150,19 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/KeyboardImpl.cp
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/12/bits/charconv.h \
  /usr/include/c++/12/bits/basic_string.tcc \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/Unix/KeySymToKeyMapping.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Keyboard.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Config.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/Unix/KeySymToUnicodeMapping.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/Unix/KeyboardImpl.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/System/EnumArray.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/Unix/KeySymToKeyMapping.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Keyboard.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/Unix/KeySymToUnicodeMapping.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/Unix/KeyboardImpl.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/System/EnumArray.hpp \
  /usr/include/c++/12/array /usr/include/c++/12/compare \
  /usr/include/c++/12/cassert /usr/include/assert.h \
  /usr/include/c++/12/cstddef \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/String.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Utf.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/String.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Utf.hpp \
  /usr/include/c++/12/locale /usr/include/c++/12/bits/locale_classes.h \
  /usr/include/c++/12/bits/locale_classes.tcc \
  /usr/include/c++/12/bits/locale_facets.h /usr/include/c++/12/cwctype \
@@ -181,8 +181,8 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/KeyboardImpl.cp
  /usr/include/libintl.h /usr/include/c++/12/bits/codecvt.h \
  /usr/include/c++/12/bits/locale_facets_nonio.tcc \
  /usr/include/c++/12/bits/locale_conv.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Utf.inl \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/String.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Utf.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/String.inl \
  /usr/include/c++/12/iterator /usr/include/c++/12/bits/stream_iterator.h \
  /usr/include/X11/XKBlib.h /usr/include/X11/extensions/XKBstr.h \
  /usr/include/X11/extensions/XKB.h /usr/include/X11/keysym.h \

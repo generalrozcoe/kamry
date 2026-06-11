@@ -1,13 +1,13 @@
 _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o: \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/WindowImpl.cpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/WindowImpl.cpp \
  /usr/include/stdc-predef.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Event.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Joystick.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Config.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/String.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Utf.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Event.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Joystick.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/String.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Utf.hpp \
  /usr/include/c++/12/array /usr/include/c++/12/compare \
  /usr/include/c++/12/initializer_list \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
@@ -156,28 +156,28 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o: \
  /usr/include/libintl.h /usr/include/c++/12/bits/codecvt.h \
  /usr/include/c++/12/bits/locale_facets_nonio.tcc \
  /usr/include/c++/12/bits/locale_conv.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Utf.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Utf.inl \
  /usr/include/c++/12/cstddef \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/String.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/String.inl \
  /usr/include/c++/12/iterator /usr/include/c++/12/bits/stream_iterator.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Keyboard.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Mouse.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector2.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Angle.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Angle.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Keyboard.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Mouse.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Angle.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Angle.inl \
  /usr/include/c++/12/cassert /usr/include/assert.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector2.inl \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Sensor.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector3.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector3.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector2.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Sensor.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector3.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector3.inl \
  /usr/include/c++/12/variant \
  /usr/include/c++/12/bits/enable_special_members.h \
  /usr/include/c++/12/bits/parse_numbers.h \
  /usr/include/c++/12/ext/aligned_buffer.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Event.inl \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/JoystickImpl.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/System/EnumArray.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/Unix/JoystickImpl.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Event.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/JoystickImpl.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/System/EnumArray.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/Unix/JoystickImpl.hpp \
  /usr/include/linux/input.h /usr/include/x86_64-linux-gnu/sys/time.h \
  /usr/include/x86_64-linux-gnu/sys/ioctl.h \
  /usr/include/x86_64-linux-gnu/bits/ioctls.h \
@@ -196,15 +196,15 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o: \
  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
  /usr/include/asm-generic/posix_types.h \
  /usr/include/linux/input-event-codes.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/JoystickManager.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/SensorManager.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/SensorImpl.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/Unix/SensorImpl.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/WindowImpl.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/CursorImpl.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/Unix/CursorImpl.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Cursor.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/JoystickManager.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/SensorManager.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/SensorImpl.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/Unix/SensorImpl.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/WindowImpl.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/CursorImpl.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/Unix/CursorImpl.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Cursor.hpp \
  /usr/include/c++/12/memory /usr/include/c++/12/bits/stl_uninitialized.h \
  /usr/include/c++/12/bits/stl_tempbuf.h \
  /usr/include/c++/12/bits/stl_raw_storage_iter.h \
@@ -221,24 +221,24 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o: \
  /usr/include/c++/12/backward/auto_ptr.h \
  /usr/include/c++/12/pstl/glue_memory_defs.h \
  /usr/include/c++/12/pstl/execution_defs.h /usr/include/c++/12/optional \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/WindowEnums.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/WindowEnums.hpp \
  /usr/include/X11/Xlib.h /usr/include/X11/X.h \
  /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/VideoMode.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/VideoMode.hpp \
  /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
  /usr/include/c++/12/bits/vector.tcc \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Vulkan.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Vulkan.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
  /usr/include/c++/12/queue /usr/include/c++/12/deque \
  /usr/include/c++/12/bits/stl_deque.h /usr/include/c++/12/bits/deque.tcc \
  /usr/include/c++/12/bits/stl_heap.h /usr/include/c++/12/bits/stl_queue.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Err.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Sleep.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Time.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Err.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Sleep.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Time.hpp \
  /usr/include/c++/12/chrono /usr/include/c++/12/bits/chrono.h \
  /usr/include/c++/12/ratio /usr/include/c++/12/limits \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Time.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Time.inl \
  /usr/include/c++/12/ostream /usr/include/c++/12/ios \
  /usr/include/c++/12/bits/basic_ios.h \
  /usr/include/c++/12/bits/basic_ios.tcc \
@@ -264,9 +264,9 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o: \
  /usr/include/c++/12/tr1/poly_hermite.tcc \
  /usr/include/c++/12/tr1/poly_laguerre.tcc \
  /usr/include/c++/12/tr1/riemann_zeta.tcc \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/Unix/WindowImplX11.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/Unix/WindowImplX11.hpp \
  /usr/include/X11/extensions/Xrandr.h /usr/include/X11/extensions/randr.h \
  /usr/include/X11/extensions/Xrender.h /usr/include/X11/Xutil.h \
  /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h \
  /usr/include/X11/extensions/render.h /usr/include/X11/Xdefs.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/VulkanImpl.hpp
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/VulkanImpl.hpp

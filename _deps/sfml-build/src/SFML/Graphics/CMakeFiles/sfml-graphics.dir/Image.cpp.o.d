@@ -1,10 +1,10 @@
 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o: \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Graphics/Image.cpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Graphics/Image.cpp \
  /usr/include/stdc-predef.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Image.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Config.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Image.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
  /usr/include/c++/12/cstdint \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -25,14 +25,14 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Color.inl \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector2.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Angle.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Angle.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Color.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Angle.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Angle.inl \
  /usr/include/c++/12/cassert /usr/include/assert.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector2.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector2.inl \
  /usr/include/c++/12/optional /usr/include/c++/12/type_traits \
  /usr/include/c++/12/exception /usr/include/c++/12/bits/exception.h \
  /usr/include/c++/12/bits/exception_ptr.h \
@@ -51,7 +51,7 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o: \
  /usr/include/c++/12/bits/concept_check.h \
  /usr/include/c++/12/debug/assertions.h \
  /usr/include/c++/12/bits/utility.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
  /usr/include/c++/12/filesystem /usr/include/c++/12/bits/fs_fwd.h \
  /usr/include/c++/12/system_error \
  /usr/include/x86_64-linux-gnu/c++/12/bits/error_constants.h \
@@ -189,11 +189,11 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o: \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
  /usr/include/c++/12/bits/vector.tcc /usr/include/c++/12/cstddef \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Err.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Exception.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/InputStream.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/System/Utils.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/extlibs/headers/stb_image/stb_image.h \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Err.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Exception.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/InputStream.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/System/Utils.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/extlibs/headers/stb_image/stb_image.h \
  /usr/include/c++/12/stdlib.h /usr/include/string.h \
  /usr/include/strings.h /usr/lib/gcc/x86_64-linux-gnu/12/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/syslimits.h \
@@ -229,7 +229,7 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/xmmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/mmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/mm_malloc.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/extlibs/headers/stb_image/stb_image_write.h \
+ /home/rozcoe/kamry/code/_deps/sfml-src/extlibs/headers/stb_image/stb_image_write.h \
  /usr/include/c++/12/algorithm /usr/include/c++/12/bits/stl_algo.h \
  /usr/include/c++/12/bits/algorithmfwd.h \
  /usr/include/c++/12/bits/stl_heap.h \

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DSFML_STATIC
 
-CXX_INCLUDES = -I/home/rozcoe/dash-sfml/_deps/sfml-src/src -isystem /home/rozcoe/dash-sfml/_deps/sfml-src/include -isystem /home/rozcoe/dash-sfml/_deps/sfml-src/extlibs/headers/glad/include -isystem /home/rozcoe/dash-sfml/_deps/sfml-src/extlibs/headers/vulkan
+CXX_INCLUDES = -I/home/rozcoe/kamry/code/_deps/sfml-src/src -isystem /home/rozcoe/kamry/code/_deps/sfml-src/include -isystem /home/rozcoe/kamry/code/_deps/sfml-src/extlibs/headers/glad/include -isystem /home/rozcoe/kamry/code/_deps/sfml-src/extlibs/headers/vulkan
 
-CXX_FLAGS = -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches
+CXX_FLAGS = -std=gnu++17 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches
 

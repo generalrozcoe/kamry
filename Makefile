@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rozcoe/dash-sfml
+CMAKE_SOURCE_DIR = /home/rozcoe/kamry/code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rozcoe/dash-sfml
+CMAKE_BINARY_DIR = /home/rozcoe/kamry/code
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rozcoe/dash-sfml/CMakeFiles /home/rozcoe/dash-sfml//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rozcoe/kamry/code/CMakeFiles /home/rozcoe/kamry/code//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rozcoe/dash-sfml/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rozcoe/kamry/code/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -160,19 +160,6 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named dash
-
-# Build rule for target.
-dash: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dash
-.PHONY : dash
-
-# fast build rule for target.
-dash/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dash.dir/build.make CMakeFiles/dash.dir/build
-.PHONY : dash/fast
 
 #=============================================================================
 # Target rules for targets named sfml-system
@@ -239,125 +226,18 @@ sfml-audio/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
 .PHONY : sfml-audio/fast
 
-src/PID.o: src/PID.cpp.o
-.PHONY : src/PID.o
+#=============================================================================
+# Target rules for targets named dash
 
-# target to build an object file
-src/PID.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dash.dir/build.make CMakeFiles/dash.dir/src/PID.cpp.o
-.PHONY : src/PID.cpp.o
+# Build rule for target.
+dash: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dash
+.PHONY : dash
 
-src/PID.i: src/PID.cpp.i
-.PHONY : src/PID.i
-
-# target to preprocess a source file
-src/PID.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dash.dir/build.make CMakeFiles/dash.dir/src/PID.cpp.i
-.PHONY : src/PID.cpp.i
-
-src/PID.s: src/PID.cpp.s
-.PHONY : src/PID.s
-
-# target to generate assembly for a file
-src/PID.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dash.dir/build.make CMakeFiles/dash.dir/src/PID.cpp.s
-.PHONY : src/PID.cpp.s
-
-src/can.o: src/can.cpp.o
-.PHONY : src/can.o
-
-# target to build an object file
-src/can.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dash.dir/build.make CMakeFiles/dash.dir/src/can.cpp.o
-.PHONY : src/can.cpp.o
-
-src/can.i: src/can.cpp.i
-.PHONY : src/can.i
-
-# target to preprocess a source file
-src/can.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dash.dir/build.make CMakeFiles/dash.dir/src/can.cpp.i
-.PHONY : src/can.cpp.i
-
-src/can.s: src/can.cpp.s
-.PHONY : src/can.s
-
-# target to generate assembly for a file
-src/can.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dash.dir/build.make CMakeFiles/dash.dir/src/can.cpp.s
-.PHONY : src/can.cpp.s
-
-src/common.o: src/common.cpp.o
-.PHONY : src/common.o
-
-# target to build an object file
-src/common.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dash.dir/build.make CMakeFiles/dash.dir/src/common.cpp.o
-.PHONY : src/common.cpp.o
-
-src/common.i: src/common.cpp.i
-.PHONY : src/common.i
-
-# target to preprocess a source file
-src/common.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dash.dir/build.make CMakeFiles/dash.dir/src/common.cpp.i
-.PHONY : src/common.cpp.i
-
-src/common.s: src/common.cpp.s
-.PHONY : src/common.s
-
-# target to generate assembly for a file
-src/common.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dash.dir/build.make CMakeFiles/dash.dir/src/common.cpp.s
-.PHONY : src/common.cpp.s
-
-src/gauge.o: src/gauge.cpp.o
-.PHONY : src/gauge.o
-
-# target to build an object file
-src/gauge.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dash.dir/build.make CMakeFiles/dash.dir/src/gauge.cpp.o
-.PHONY : src/gauge.cpp.o
-
-src/gauge.i: src/gauge.cpp.i
-.PHONY : src/gauge.i
-
-# target to preprocess a source file
-src/gauge.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dash.dir/build.make CMakeFiles/dash.dir/src/gauge.cpp.i
-.PHONY : src/gauge.cpp.i
-
-src/gauge.s: src/gauge.cpp.s
-.PHONY : src/gauge.s
-
-# target to generate assembly for a file
-src/gauge.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dash.dir/build.make CMakeFiles/dash.dir/src/gauge.cpp.s
-.PHONY : src/gauge.cpp.s
-
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
-
-# target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dash.dir/build.make CMakeFiles/dash.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
-
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dash.dir/build.make CMakeFiles/dash.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
-
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dash.dir/build.make CMakeFiles/dash.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+# fast build rule for target.
+dash/fast:
+	$(MAKE) $(MAKESILENT) -f apps/dash/CMakeFiles/dash.dir/build.make apps/dash/CMakeFiles/dash.dir/build
+.PHONY : dash/fast
 
 # Help Target
 help:
@@ -377,21 +257,6 @@ help:
 	@echo "... sfml-network"
 	@echo "... sfml-system"
 	@echo "... sfml-window"
-	@echo "... src/PID.o"
-	@echo "... src/PID.i"
-	@echo "... src/PID.s"
-	@echo "... src/can.o"
-	@echo "... src/can.i"
-	@echo "... src/can.s"
-	@echo "... src/common.o"
-	@echo "... src/common.i"
-	@echo "... src/common.s"
-	@echo "... src/gauge.o"
-	@echo "... src/gauge.i"
-	@echo "... src/gauge.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
 .PHONY : help
 
 

@@ -1,8 +1,8 @@
 _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.o: \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/WindowBase.cpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/WindowBase.cpp \
  /usr/include/stdc-predef.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Config.hpp \
  /usr/include/c++/12/cstdint \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -23,14 +23,14 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Cursor.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector2.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Angle.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Angle.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Cursor.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Angle.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Angle.inl \
  /usr/include/c++/12/cassert /usr/include/assert.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector2.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector2.inl \
  /usr/include/c++/12/memory /usr/include/c++/12/bits/stl_algobase.h \
  /usr/include/c++/12/bits/functexcept.h \
  /usr/include/c++/12/bits/exception_defines.h \
@@ -126,10 +126,10 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.o: \
  /usr/include/c++/12/pstl/execution_defs.h /usr/include/c++/12/optional \
  /usr/include/c++/12/initializer_list \
  /usr/include/c++/12/bits/enable_special_members.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Event.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Joystick.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/String.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Utf.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Event.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Joystick.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/String.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Utf.hpp \
  /usr/include/c++/12/array /usr/include/c++/12/compare \
  /usr/include/c++/12/bits/range_access.h /usr/include/c++/12/locale \
  /usr/include/c++/12/bits/localefwd.h \
@@ -182,39 +182,39 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.o: \
  /usr/include/libintl.h /usr/include/c++/12/bits/codecvt.h \
  /usr/include/c++/12/bits/locale_facets_nonio.tcc \
  /usr/include/c++/12/bits/locale_conv.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Utf.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Utf.inl \
  /usr/include/c++/12/cstddef \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/String.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/String.inl \
  /usr/include/c++/12/iterator /usr/include/c++/12/bits/stream_iterator.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Keyboard.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Mouse.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Sensor.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector3.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector3.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Keyboard.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Mouse.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Sensor.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector3.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector3.inl \
  /usr/include/c++/12/variant /usr/include/c++/12/bits/parse_numbers.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Event.inl \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/VideoMode.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Event.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/VideoMode.hpp \
  /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
  /usr/include/c++/12/bits/vector.tcc \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Vulkan.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/WindowBase.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/WindowEnums.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Time.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Vulkan.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/WindowBase.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/WindowEnums.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Time.hpp \
  /usr/include/c++/12/chrono /usr/include/c++/12/bits/chrono.h \
  /usr/include/c++/12/ratio /usr/include/c++/12/limits \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Time.inl \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/WindowBase.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Time.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/WindowBase.inl \
  /usr/include/c++/12/utility /usr/include/c++/12/bits/stl_relops.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/WindowImpl.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/CursorImpl.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/Unix/CursorImpl.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/WindowImpl.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/CursorImpl.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/Unix/CursorImpl.hpp \
  /usr/include/X11/Xlib.h /usr/include/X11/X.h \
  /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/SensorImpl.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Window/Unix/SensorImpl.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/System/EnumArray.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/SensorImpl.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Window/Unix/SensorImpl.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/System/EnumArray.hpp \
  /usr/include/c++/12/queue /usr/include/c++/12/deque \
  /usr/include/c++/12/bits/stl_deque.h /usr/include/c++/12/bits/deque.tcc \
  /usr/include/c++/12/bits/stl_heap.h /usr/include/c++/12/bits/stl_queue.h \

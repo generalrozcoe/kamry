@@ -1,10 +1,10 @@
 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.o: \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Graphics/VertexBuffer.cpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Graphics/VertexBuffer.cpp \
  /usr/include/stdc-predef.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Graphics/GLCheck.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Config.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/src/SFML/Graphics/GLExtensions.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/extlibs/headers/glad/include/glad/gl.h \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Graphics/GLCheck.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/src/SFML/Graphics/GLExtensions.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/extlibs/headers/glad/include/glad/gl.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -20,8 +20,8 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Err.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Err.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Export.hpp \
  /usr/include/c++/12/iosfwd \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -154,34 +154,34 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp
  /usr/include/c++/12/bits/locale_facets.tcc \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/RenderTarget.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Color.inl \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/CoordinateType.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector2.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Angle.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Angle.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/RenderTarget.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Color.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/CoordinateType.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Angle.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Angle.inl \
  /usr/include/c++/12/cassert /usr/include/assert.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/System/Vector2.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/System/Vector2.inl \
  /usr/include/c++/12/optional \
  /usr/include/c++/12/bits/enable_special_members.h \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/RenderStates.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/StencilMode.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Transform.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/RenderStates.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/StencilMode.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Transform.hpp \
  /usr/include/c++/12/array /usr/include/c++/12/compare \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Transform.inl \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Transform.inl \
  /usr/include/c++/12/cstddef \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Vertex.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/View.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/VertexBuffer.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Graphics/Drawable.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
- /home/rozcoe/dash-sfml/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Vertex.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/View.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/VertexBuffer.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Graphics/Drawable.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
+ /home/rozcoe/kamry/code/_deps/sfml-src/include/SFML/Window/Export.hpp \
  /usr/include/c++/12/memory /usr/include/c++/12/bits/stl_uninitialized.h \
  /usr/include/c++/12/bits/stl_tempbuf.h \
  /usr/include/c++/12/bits/stl_raw_storage_iter.h \
