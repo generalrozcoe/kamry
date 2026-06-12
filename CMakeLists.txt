@@ -1,26 +1,44 @@
 cmake_minimum_required(VERSION 3.15)
-project(KamryProject LANGUAGES CXX)
+project(KamryMasterBuild NONE)
 
-# 1. Global rules: Force apps into a clean binaries folder and enforce C++17
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/binaries")
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
+include(ExternalProject)
 
-# 2. Fetch SFML Dependency (Your exact FetchContent setup)
-include(FetchContent)
-FetchContent_Declare(SFML
-    GIT_REPOSITORY https://github.com/SFML/SFML.git
-    GIT_TAG 3.0.2
-    GIT_SHALLOW ON
-    EXCLUDE_FROM_ALL
-    SYSTEM)
-FetchContent_MakeAvailable(SFML)
+set(GLOBAL_OUTPUT_DIR "${CMAKE_CURRENT_BINARY_DIR}/bin")
 
-# 3. Register your reusable code modules first
-add_subdirectory(libraries/can_bcm)
-add_subdirectory(libraries/can_ecu)
-add_subdirectory(libraries/can)
+# 🖥️ TARGET 1: THE NATIVE DESKTOP DASHBOARD
+ExternalProject_Add(dash
+    SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/apps/dash"
+    CMAKE_ARGS 
+        -DBUILD_NATIVE_DASH=ON
+        -DCMAKE_RUNTIME_OUTPUT_DIRECTORY=${GLOBAL_OUTPUT_DIR}
+    BINARY_DIR "${CMAKE_CURRENT_BINARY_DIR}/build_dash"
+    INSTALL_COMMAND ""
+    # 🛠️ FORCE RE-CHECK: Tells CMake to scan for file modifications on every build pass
+    STEP_TARGETS build
+)
+# Force step bypass
+ExternalProject_Add_Step(dash force_rebuild
+    COMMAND ${CMAKE_COMMAND} -E echo "Checking Dashboard modifications..."
+    DEPENDERS configure
+    ALWAYS 1
+)
 
-
-# 4. Register your executable applications last
-add_subdirectory(apps/dash)
+# 🧱 TARGET 2: THE EMBEDDED PICO FIRMWARE NODES
+ExternalProject_Add(pico
+    SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/apps/pico"
+    CMAKE_ARGS 
+        -DBUILD_PICO_NODES=ON
+        -DCMAKE_MAKE_PROGRAM=${CMAKE_MAKE_PROGRAM}
+        -DCMAKE_RUNTIME_OUTPUT_DIRECTORY=${GLOBAL_OUTPUT_DIR}
+    BINARY_DIR "${CMAKE_CURRENT_BINARY_DIR}/build_pico"
+    INSTALL_COMMAND ""
+    USES_TERMINAL_CONFIGURE ON
+    USES_TERMINAL_BUILD ON
+    STEP_TARGETS build
+)
+# 🛠️ FORCE RE-CHECK: Tells CMake to scan for your .cpp changes on every build pass
+ExternalProject_Add_Step(pico force_rebuild
+    COMMAND ${CMAKE_COMMAND} -E echo "Checking Pico node modifications..."
+    DEPENDERS configure
+    ALWAYS 1
+)

@@ -1,0 +1,14 @@
+# Target labels
+ dash
+# Source files and their labels
+/home/rozcoe/kamry/code/CMakeFiles/dash
+/home/rozcoe/kamry/code/CMakeFiles/dash.rule
+/home/rozcoe/kamry/code/CMakeFiles/dash-complete.rule
+/home/rozcoe/kamry/code/dash-prefix/src/dash-stamp/dash-build.rule
+/home/rozcoe/kamry/code/dash-prefix/src/dash-stamp/dash-configure.rule
+/home/rozcoe/kamry/code/dash-prefix/src/dash-stamp/dash-download.rule
+/home/rozcoe/kamry/code/dash-prefix/src/dash-stamp/dash-force_rebuild.rule
+/home/rozcoe/kamry/code/dash-prefix/src/dash-stamp/dash-install.rule
+/home/rozcoe/kamry/code/dash-prefix/src/dash-stamp/dash-mkdir.rule
+/home/rozcoe/kamry/code/dash-prefix/src/dash-stamp/dash-patch.rule
+/home/rozcoe/kamry/code/dash-prefix/src/dash-stamp/dash-update.rule

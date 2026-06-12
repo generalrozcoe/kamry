@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/rozcoe/kamry/code/CMakeFiles/dash"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/CMakeFiles/dash.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/CMakeFiles/dash-complete.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/dash-prefix/src/dash-stamp/dash-build.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/dash-prefix/src/dash-stamp/dash-configure.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/dash-prefix/src/dash-stamp/dash-download.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/dash-prefix/src/dash-stamp/dash-force_rebuild.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/dash-prefix/src/dash-stamp/dash-install.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/dash-prefix/src/dash-stamp/dash-mkdir.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/dash-prefix/src/dash-stamp/dash-patch.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/dash-prefix/src/dash-stamp/dash-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dash"
+		],
+		"name" : "dash"
+	}
+}

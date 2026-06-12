@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/rozcoe/kamry/code/CMakeFiles/pico"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/CMakeFiles/pico.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/CMakeFiles/pico-complete.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/pico-prefix/src/pico-stamp/pico-build.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/pico-prefix/src/pico-stamp/pico-configure.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/pico-prefix/src/pico-stamp/pico-download.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/pico-prefix/src/pico-stamp/pico-force_rebuild.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/pico-prefix/src/pico-stamp/pico-install.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/pico-prefix/src/pico-stamp/pico-mkdir.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/pico-prefix/src/pico-stamp/pico-patch.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/pico-prefix/src/pico-stamp/pico-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pico"
+		],
+		"name" : "pico"
+	}
+}

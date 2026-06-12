@@ -27,10 +27,10 @@ namespace KamryCAN::BCM {
         uint8_t high_beams     : 1; // 1 bit
         uint8_t left_turn      : 1; // 1 bit
         uint8_t right_turn     : 1; // 1 bit
-        uint8_t brake_lights   : 1; // 1 bit
+        uint8_t brakes   : 1; // 1 bit
         uint8_t reverse_lights : 1; // 1 bit
         uint8_t fog_lights     : 1; // 1 bit
-        uint8_t hazard_active  : 1; // 1 bit -> Total 8 bits (1 Byte)
+        uint8_t hazards  : 1; // 1 bit -> Total 8 bits (1 Byte)
     };
 
     struct RearDoor {

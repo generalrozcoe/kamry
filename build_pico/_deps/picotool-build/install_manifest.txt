@@ -1,0 +1,7 @@
+/home/rozcoe/kamry/code/build_pico/_deps/picotool/picotool
+/home/rozcoe/kamry/code/build_pico/_deps/picotool/picotoolTargets.cmake
+/home/rozcoe/kamry/code/build_pico/_deps/picotool/picotoolTargets-release.cmake
+/home/rozcoe/kamry/code/build_pico/_deps/picotool/picotoolConfig.cmake
+/home/rozcoe/kamry/code/build_pico/_deps/picotool/picotoolConfigVersion.cmake
+/home/rozcoe/kamry/code/build_pico/_deps/picotool/enc_bootloader.elf
+/home/rozcoe/kamry/code/build_pico/_deps/picotool/enc_bootloader_mbedtls.elf

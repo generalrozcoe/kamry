@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/rozcoe/kamry/code/CMakeFiles/pico_nodes"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/CMakeFiles/pico_nodes.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/CMakeFiles/pico_nodes-complete.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/pico_nodes-prefix/src/pico_nodes-stamp/pico_nodes-build.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/pico_nodes-prefix/src/pico_nodes-stamp/pico_nodes-configure.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/pico_nodes-prefix/src/pico_nodes-stamp/pico_nodes-download.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/pico_nodes-prefix/src/pico_nodes-stamp/pico_nodes-install.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/pico_nodes-prefix/src/pico_nodes-stamp/pico_nodes-mkdir.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/pico_nodes-prefix/src/pico_nodes-stamp/pico_nodes-patch.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/pico_nodes-prefix/src/pico_nodes-stamp/pico_nodes-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pico_nodes"
+		],
+		"name" : "pico_nodes"
+	}
+}

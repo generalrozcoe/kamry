@@ -1,0 +1,14 @@
+# Target labels
+ pico
+# Source files and their labels
+/home/rozcoe/kamry/code/CMakeFiles/pico
+/home/rozcoe/kamry/code/CMakeFiles/pico.rule
+/home/rozcoe/kamry/code/CMakeFiles/pico-complete.rule
+/home/rozcoe/kamry/code/pico-prefix/src/pico-stamp/pico-build.rule
+/home/rozcoe/kamry/code/pico-prefix/src/pico-stamp/pico-configure.rule
+/home/rozcoe/kamry/code/pico-prefix/src/pico-stamp/pico-download.rule
+/home/rozcoe/kamry/code/pico-prefix/src/pico-stamp/pico-force_rebuild.rule
+/home/rozcoe/kamry/code/pico-prefix/src/pico-stamp/pico-install.rule
+/home/rozcoe/kamry/code/pico-prefix/src/pico-stamp/pico-mkdir.rule
+/home/rozcoe/kamry/code/pico-prefix/src/pico-stamp/pico-patch.rule
+/home/rozcoe/kamry/code/pico-prefix/src/pico-stamp/pico-update.rule

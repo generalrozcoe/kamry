@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DBUILD_PICO_NODES=ON;-GUnix Makefiles;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'

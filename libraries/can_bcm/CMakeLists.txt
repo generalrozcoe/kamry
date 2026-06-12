@@ -1,3 +1,4 @@
+cmake_minimum_required(VERSION 3.15)
 add_library(can_bcm INTERFACE)
 
 # The MAGIC line: This tells CMake that anyone who links to 'kamry_can'

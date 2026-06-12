@@ -1,0 +1,13 @@
+# Target labels
+ pico_nodes
+# Source files and their labels
+/home/rozcoe/kamry/code/CMakeFiles/pico_nodes
+/home/rozcoe/kamry/code/CMakeFiles/pico_nodes.rule
+/home/rozcoe/kamry/code/CMakeFiles/pico_nodes-complete.rule
+/home/rozcoe/kamry/code/pico_nodes-prefix/src/pico_nodes-stamp/pico_nodes-build.rule
+/home/rozcoe/kamry/code/pico_nodes-prefix/src/pico_nodes-stamp/pico_nodes-configure.rule
+/home/rozcoe/kamry/code/pico_nodes-prefix/src/pico_nodes-stamp/pico_nodes-download.rule
+/home/rozcoe/kamry/code/pico_nodes-prefix/src/pico_nodes-stamp/pico_nodes-install.rule
+/home/rozcoe/kamry/code/pico_nodes-prefix/src/pico_nodes-stamp/pico_nodes-mkdir.rule
+/home/rozcoe/kamry/code/pico_nodes-prefix/src/pico_nodes-stamp/pico_nodes-patch.rule
+/home/rozcoe/kamry/code/pico_nodes-prefix/src/pico_nodes-stamp/pico_nodes-update.rule
