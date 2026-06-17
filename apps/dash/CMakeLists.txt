@@ -5,7 +5,6 @@ endif()
 cmake_minimum_required(VERSION 3.15)
 project(dash LANGUAGES C CXX)
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/binaries")
 set(CMAKE_CXX_STANDARD 17)
 
 # Fetch SFML for desktop rendering

@@ -84,15 +84,15 @@ CMakeFiles/pico-complete: pico-prefix/src/pico-stamp/pico-force_rebuild
 
 pico-prefix/src/pico-stamp/pico-build: pico-prefix/src/pico-stamp/pico-configure
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/rozcoe/kamry/code/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'pico'"
-	cd /home/rozcoe/kamry/code/build_pico && $(MAKE)
-	cd /home/rozcoe/kamry/code/build_pico && /usr/bin/cmake -E touch /home/rozcoe/kamry/code/pico-prefix/src/pico-stamp/pico-build
+	cd /home/rozcoe/kamry/code/build/pico && $(MAKE)
+	cd /home/rozcoe/kamry/code/build/pico && /usr/bin/cmake -E touch /home/rozcoe/kamry/code/pico-prefix/src/pico-stamp/pico-build
 
 pico-prefix/src/pico-stamp/pico-configure: pico-prefix/tmp/pico-cfgcmd.txt
 pico-prefix/src/pico-stamp/pico-configure: pico-prefix/src/pico-stamp/pico-patch
 pico-prefix/src/pico-stamp/pico-configure: pico-prefix/src/pico-stamp/pico-force_rebuild
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/rozcoe/kamry/code/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'pico'"
-	cd /home/rozcoe/kamry/code/build_pico && /usr/bin/cmake -DBUILD_PICO_NODES=ON -DCMAKE_MAKE_PROGRAM=/usr/bin/gmake -DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/rozcoe/kamry/code/bin "-GUnix Makefiles" -S /home/rozcoe/kamry/code/apps/pico -B /home/rozcoe/kamry/code/build_pico
-	cd /home/rozcoe/kamry/code/build_pico && /usr/bin/cmake -E touch /home/rozcoe/kamry/code/pico-prefix/src/pico-stamp/pico-configure
+	cd /home/rozcoe/kamry/code/build/pico && /usr/bin/cmake -DPICO_RP2350=1 -DBUILD_PICO_NODES=ON -DCMAKE_MAKE_PROGRAM=/usr/bin/gmake -DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/rozcoe/kamry/code/binaries/pico "-GUnix Makefiles" -S /home/rozcoe/kamry/code/apps/pico -B /home/rozcoe/kamry/code/build/pico
+	cd /home/rozcoe/kamry/code/build/pico && /usr/bin/cmake -E touch /home/rozcoe/kamry/code/pico-prefix/src/pico-stamp/pico-configure
 
 pico-prefix/src/pico-stamp/pico-download: pico-prefix/src/pico-stamp/pico-source_dirinfo.txt
 pico-prefix/src/pico-stamp/pico-download: pico-prefix/src/pico-stamp/pico-mkdir
@@ -106,8 +106,8 @@ pico-prefix/src/pico-stamp/pico-force_rebuild:
 
 pico-prefix/src/pico-stamp/pico-install: pico-prefix/src/pico-stamp/pico-build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/rozcoe/kamry/code/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No install step for 'pico'"
-	cd /home/rozcoe/kamry/code/build_pico && /usr/bin/cmake -E echo_append
-	cd /home/rozcoe/kamry/code/build_pico && /usr/bin/cmake -E touch /home/rozcoe/kamry/code/pico-prefix/src/pico-stamp/pico-install
+	cd /home/rozcoe/kamry/code/build/pico && /usr/bin/cmake -E echo_append
+	cd /home/rozcoe/kamry/code/build/pico && /usr/bin/cmake -E touch /home/rozcoe/kamry/code/pico-prefix/src/pico-stamp/pico-install
 
 pico-prefix/src/pico-stamp/pico-mkdir:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/rozcoe/kamry/code/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Creating directories for 'pico'"

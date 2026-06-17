@@ -84,15 +84,15 @@ CMakeFiles/dash-complete: dash-prefix/src/dash-stamp/dash-force_rebuild
 
 dash-prefix/src/dash-stamp/dash-build: dash-prefix/src/dash-stamp/dash-configure
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/rozcoe/kamry/code/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'dash'"
-	cd /home/rozcoe/kamry/code/build_dash && $(MAKE)
-	cd /home/rozcoe/kamry/code/build_dash && /usr/bin/cmake -E touch /home/rozcoe/kamry/code/dash-prefix/src/dash-stamp/dash-build
+	cd /home/rozcoe/kamry/code/build/dash && $(MAKE)
+	cd /home/rozcoe/kamry/code/build/dash && /usr/bin/cmake -E touch /home/rozcoe/kamry/code/dash-prefix/src/dash-stamp/dash-build
 
 dash-prefix/src/dash-stamp/dash-configure: dash-prefix/tmp/dash-cfgcmd.txt
 dash-prefix/src/dash-stamp/dash-configure: dash-prefix/src/dash-stamp/dash-patch
 dash-prefix/src/dash-stamp/dash-configure: dash-prefix/src/dash-stamp/dash-force_rebuild
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/rozcoe/kamry/code/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'dash'"
-	cd /home/rozcoe/kamry/code/build_dash && /usr/bin/cmake -DBUILD_NATIVE_DASH=ON -DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/rozcoe/kamry/code/bin "-GUnix Makefiles" -S /home/rozcoe/kamry/code/apps/dash -B /home/rozcoe/kamry/code/build_dash
-	cd /home/rozcoe/kamry/code/build_dash && /usr/bin/cmake -E touch /home/rozcoe/kamry/code/dash-prefix/src/dash-stamp/dash-configure
+	cd /home/rozcoe/kamry/code/build/dash && /usr/bin/cmake -DBUILD_NATIVE_DASH=ON -DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/rozcoe/kamry/code/binaries/pi "-GUnix Makefiles" -S /home/rozcoe/kamry/code/apps/dash -B /home/rozcoe/kamry/code/build/dash
+	cd /home/rozcoe/kamry/code/build/dash && /usr/bin/cmake -E touch /home/rozcoe/kamry/code/dash-prefix/src/dash-stamp/dash-configure
 
 dash-prefix/src/dash-stamp/dash-download: dash-prefix/src/dash-stamp/dash-source_dirinfo.txt
 dash-prefix/src/dash-stamp/dash-download: dash-prefix/src/dash-stamp/dash-mkdir
@@ -106,8 +106,8 @@ dash-prefix/src/dash-stamp/dash-force_rebuild:
 
 dash-prefix/src/dash-stamp/dash-install: dash-prefix/src/dash-stamp/dash-build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/rozcoe/kamry/code/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No install step for 'dash'"
-	cd /home/rozcoe/kamry/code/build_dash && /usr/bin/cmake -E echo_append
-	cd /home/rozcoe/kamry/code/build_dash && /usr/bin/cmake -E touch /home/rozcoe/kamry/code/dash-prefix/src/dash-stamp/dash-install
+	cd /home/rozcoe/kamry/code/build/dash && /usr/bin/cmake -E echo_append
+	cd /home/rozcoe/kamry/code/build/dash && /usr/bin/cmake -E touch /home/rozcoe/kamry/code/dash-prefix/src/dash-stamp/dash-install
 
 dash-prefix/src/dash-stamp/dash-mkdir:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/rozcoe/kamry/code/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Creating directories for 'dash'"

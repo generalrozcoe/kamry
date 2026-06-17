@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DPICO_RP2350=1;-DBUILD_PICO_NODES=ON;-DCMAKE_MAKE_PROGRAM=/usr/bin/ninja;-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/rozcoe/kamry/code/build/binaries/pico;-GNinja;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'

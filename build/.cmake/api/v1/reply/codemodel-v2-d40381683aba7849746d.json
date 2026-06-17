@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "KamryMasterBuild",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dash::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dash-Debug-68efb584b6950c516710.json",
+					"name" : "dash",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dash-build::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dash-build-Debug-47fca18adc8b008c4487.json",
+					"name" : "dash-build",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pico::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pico-Debug-ec3fec83da872dcc9f43.json",
+					"name" : "pico",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pico-build::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pico-build-Debug-53834fc8b69a7e163732.json",
+					"name" : "pico-build",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rozcoe/kamry/code/build",
+		"source" : "/home/rozcoe/kamry/code"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

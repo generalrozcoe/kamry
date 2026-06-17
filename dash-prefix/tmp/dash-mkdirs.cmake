@@ -10,7 +10,7 @@ if(NOT EXISTS "/home/rozcoe/kamry/code/apps/dash")
   file(MAKE_DIRECTORY "/home/rozcoe/kamry/code/apps/dash")
 endif()
 file(MAKE_DIRECTORY
-  "/home/rozcoe/kamry/code/build_dash"
+  "/home/rozcoe/kamry/code/build/dash"
   "/home/rozcoe/kamry/code/dash-prefix"
   "/home/rozcoe/kamry/code/dash-prefix/tmp"
   "/home/rozcoe/kamry/code/dash-prefix/src/dash-stamp"

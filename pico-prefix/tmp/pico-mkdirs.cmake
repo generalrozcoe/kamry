@@ -10,7 +10,7 @@ if(NOT EXISTS "/home/rozcoe/kamry/code/apps/pico")
   file(MAKE_DIRECTORY "/home/rozcoe/kamry/code/apps/pico")
 endif()
 file(MAKE_DIRECTORY
-  "/home/rozcoe/kamry/code/build_pico"
+  "/home/rozcoe/kamry/code/build/pico"
   "/home/rozcoe/kamry/code/pico-prefix"
   "/home/rozcoe/kamry/code/pico-prefix/tmp"
   "/home/rozcoe/kamry/code/pico-prefix/src/pico-stamp"

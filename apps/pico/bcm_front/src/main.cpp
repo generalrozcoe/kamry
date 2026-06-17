@@ -4,10 +4,24 @@ extern "C" {
   #include "can2040.h"
 }
 #include "can.hpp"         // Your unified Kamry network layout
+    enum pinID : int {
+        can_rx = 4, can_tx = 5,
+        left_turn = 0, right_turn  = 1,
+        left_low = 2,  right_low = 3,
+        left_high = 6, right_high = 7,
+        left_drl = 8,  right_drl = 9,  
 
+
+        headlights = 10,
+        highbeams = 11,
+        left = 12,
+        right = 13,
+        hazards = 14,
+        brakes = 15
+    };
 // 🛠️ Array structures to make initializations clean
-const uint INPUT_PINS[] = {10, 11, 12, 13, 14, 15};
-const uint OUTPUT_PINS[] = {0, 1, 2, 3, 4, 5, 6, 7};
+const uint INPUT_PINS[] = {headlights, highbeams, left, right, hazards, brakes};
+const uint OUTPUT_PINS[] = {left_turn, right_turn, left_low, left_high, right_low, right_high, left_drl, right_drl};
 
 
 // Simple example of irq safe queue (this is not multi-core safe)
@@ -53,7 +67,7 @@ canbus_setup(void)
 {
     uint32_t pio_num = 0;
     uint32_t sys_clock = SYS_CLK_HZ, bitrate = 500000;
-    uint32_t gpio_rx = 4, gpio_tx = 5;
+    uint32_t gpio_rx = can_rx, gpio_tx = can_tx;
 
     // Setup canbus
     can2040_setup(&cbus, pio_num);
@@ -94,41 +108,41 @@ void loop() {
     KamryCAN::BCM::LightsFrame lightingNode;
 
     // 1. Read Physical Stalk Switches (Inputs via gpio_get)
-    lightingNode.data.low_beams  = gpio_get(10); // gp10
-    lightingNode.data.high_beams = gpio_get(11); // gp11
-    lightingNode.data.left_turn  = gpio_get(12); // gp12
-    lightingNode.data.right_turn = gpio_get(13); // gp13
-    lightingNode.data.hazards    = gpio_get(14); // gp14
-    lightingNode.data.brakes     = gpio_get(15); // gp15
+    lightingNode.data.low_beams  = gpio_get(headlights); // gp10
+    lightingNode.data.high_beams = gpio_get(highbeams); // gp11
+    lightingNode.data.left_turn  = gpio_get(left); // gp12
+    lightingNode.data.right_turn = gpio_get(right); // gp13
+    lightingNode.data.hazards    = gpio_get(hazards); // gp14
+    lightingNode.data.brakes     = gpio_get(brakes); // gp15
 
     // 2. Write Directly to the MOSFET Gate Transistors (Outputs via gpio_put)
 
-    gpio_put(2, lightingNode.data.low_beams);   // gp2  (Fixed typo from low_beam)
-    gpio_put(3, lightingNode.data.high_beams);  // gp3  (Fixed typo from high_beam)
-    gpio_put(4, lightingNode.data.low_beams);   // gp4
-    gpio_put(5, lightingNode.data.high_beams);  // gp5
+    gpio_put(left_low, lightingNode.data.low_beams);   // gp2  (Fixed typo from low_beam)
+    gpio_put(left_high, lightingNode.data.high_beams);  // gp3  (Fixed typo from high_beam)
+    gpio_put(right_low, lightingNode.data.low_beams);   // gp4
+    gpio_put(right_high, lightingNode.data.high_beams);  // gp5
 bool flash_now = ((to_ms_since_boot(get_absolute_time()) / 500) % 2 == 0);
 
 // 2. Process the lighting priority logic tree
 if (lightingNode.data.hazards == true && flash_now) {
     // Hazards are pressed and the clock is even -> Flash both sides!
-    gpio_put(0, 1);   // gp0 - Left Turn
-    gpio_put(1, 1);   // gp1 - Right Turn
+    gpio_put(left_turn, 1);   // gp0 - Left Turn
+    gpio_put(right_turn, 1);   // gp1 - Right Turn
 } 
 else if (lightingNode.data.left_turn == true && flash_now) {
     // Only Left turn is active and clock is even
-    gpio_put(0, 1);   // gp0 ON
-    gpio_put(1, 0);   // gp1 OFF
+    gpio_put(left_turn, 1);   // gp0 ON
+    gpio_put(right_turn, 0);   // gp1 OFF
 } 
 else if (lightingNode.data.right_turn == true && flash_now) {
     // Only Right turn is active and clock is even
-    gpio_put(0, 0);   // gp0 OFF
-    gpio_put(1, 1);   // gp1 ON
+    gpio_put(left_turn, 0);   // gp0 OFF
+    gpio_put(right_turn, 1);   // gp1 ON
 } 
 else {
     // Default safety fallback: if it's an "odd" tick, or nothing is pressed, turn them off!
-    gpio_put(0, 0);   // gp0 OFF
-    gpio_put(1, 0);   // gp1 OFF
+    gpio_put(left_turn, 0);   // gp0 OFF
+    gpio_put(right_turn, 0);   // gp1 OFF
 }
     // 4. Send this telemetry package over the CAN Bus to your Dashboard!
     // Assumes your CanBus global instance layout exposes a raw packet interface
