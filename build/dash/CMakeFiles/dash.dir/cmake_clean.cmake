@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "/home/rozcoe/kamry/code/binaries/pi/dash"
   "/home/rozcoe/kamry/code/binaries/pi/dash.pdb"
-  "CMakeFiles/dash.dir/src/PID.cpp.o"
-  "CMakeFiles/dash.dir/src/PID.cpp.o.d"
   "CMakeFiles/dash.dir/src/common.cpp.o"
   "CMakeFiles/dash.dir/src/common.cpp.o.d"
   "CMakeFiles/dash.dir/src/gauge.cpp.o"

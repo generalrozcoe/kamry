@@ -143,6 +143,32 @@ dash-build/fast:
 .PHONY : dash-build/fast
 
 #=============================================================================
+# Target rules for targets named dash_sim
+
+# Build rule for target.
+dash_sim: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dash_sim
+.PHONY : dash_sim
+
+# fast build rule for target.
+dash_sim/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dash_sim.dir/build.make CMakeFiles/dash_sim.dir/build
+.PHONY : dash_sim/fast
+
+#=============================================================================
+# Target rules for targets named dash_sim-build
+
+# Build rule for target.
+dash_sim-build: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dash_sim-build
+.PHONY : dash_sim-build
+
+# fast build rule for target.
+dash_sim-build/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dash_sim-build.dir/build.make CMakeFiles/dash_sim-build.dir/build
+.PHONY : dash_sim-build/fast
+
+#=============================================================================
 # Target rules for targets named pico
 
 # Build rule for target.
@@ -178,6 +204,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... dash"
 	@echo "... dash-build"
+	@echo "... dash_sim"
+	@echo "... dash_sim-build"
 	@echo "... pico"
 	@echo "... pico-build"
 .PHONY : help

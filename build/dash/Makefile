@@ -239,30 +239,6 @@ sfml-audio/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
 .PHONY : sfml-audio/fast
 
-src/PID.o: src/PID.cpp.o
-.PHONY : src/PID.o
-
-# target to build an object file
-src/PID.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dash.dir/build.make CMakeFiles/dash.dir/src/PID.cpp.o
-.PHONY : src/PID.cpp.o
-
-src/PID.i: src/PID.cpp.i
-.PHONY : src/PID.i
-
-# target to preprocess a source file
-src/PID.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dash.dir/build.make CMakeFiles/dash.dir/src/PID.cpp.i
-.PHONY : src/PID.cpp.i
-
-src/PID.s: src/PID.cpp.s
-.PHONY : src/PID.s
-
-# target to generate assembly for a file
-src/PID.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dash.dir/build.make CMakeFiles/dash.dir/src/PID.cpp.s
-.PHONY : src/PID.cpp.s
-
 src/common.o: src/common.cpp.o
 .PHONY : src/common.o
 
@@ -377,9 +353,6 @@ help:
 	@echo "... sfml-network"
 	@echo "... sfml-system"
 	@echo "... sfml-window"
-	@echo "... src/PID.o"
-	@echo "... src/PID.i"
-	@echo "... src/PID.s"
 	@echo "... src/common.o"
 	@echo "... src/common.i"
 	@echo "... src/common.s"

@@ -22,6 +22,22 @@ ExternalProject_Add_Step(dash force_rebuild
     DEPENDERS configure
     ALWAYS 1
 )
+ExternalProject_Add(dash_sim
+    SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/apps/dash_sim"
+    CMAKE_ARGS 
+        -DBUILD_NATIVE_DASH=ON
+        -DCMAKE_RUNTIME_OUTPUT_DIRECTORY=${GLOBAL_OUTPUT_DIR}/pi
+    BINARY_DIR "${CMAKE_CURRENT_BINARY_DIR}/build/dash_sim"
+    INSTALL_COMMAND ""
+    # 🛠️ FORCE RE-CHECK: Tells CMake to scan for file modifications on every build pass
+    STEP_TARGETS build
+)
+# Force step bypass
+ExternalProject_Add_Step(dash_sim force_rebuild
+    COMMAND ${CMAKE_COMMAND} -E echo "Checking Dashboard modifications..."
+    DEPENDERS configure
+    ALWAYS 1
+)
 
 # 🧱 TARGET 2: THE EMBEDDED PICO FIRMWARE NODES
 ExternalProject_Add(pico

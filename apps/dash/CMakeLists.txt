@@ -23,8 +23,15 @@ add_subdirectory(../../libraries/can_ecu ${CMAKE_CURRENT_BINARY_DIR}/can_ecu)
 add_executable(dash src/main.cpp
                     src/gauge.cpp
                     src/common.cpp
-                    src/PID.cpp
                     src/rcan.cpp)
 target_include_directories(dash PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/include")
 
 target_link_libraries(dash PRIVATE sfml-graphics can can_bcm can_ecu)
+
+# Automatically copy your font and texture assets to the binary directory on every build
+add_custom_command(TARGET dash POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../media"
+    "$<TARGET_FILE_DIR:dash>/media"
+    COMMENT "Syncing local asset and media folders to runtime path..."
+)

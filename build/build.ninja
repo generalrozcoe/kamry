@@ -54,6 +54,18 @@ build dash-build: phony CMakeFiles/dash-build dash-prefix/src/dash-stamp/dash-bu
 
 
 #############################################
+# Utility command for dash_sim
+
+build dash_sim: phony CMakeFiles/dash_sim CMakeFiles/dash_sim-complete dash_sim-prefix/src/dash_sim-stamp/dash_sim-done dash_sim-prefix/src/dash_sim-stamp/dash_sim-build dash_sim-prefix/src/dash_sim-stamp/dash_sim-configure dash_sim-prefix/src/dash_sim-stamp/dash_sim-download dash_sim-prefix/src/dash_sim-stamp/dash_sim-force_rebuild dash_sim-prefix/src/dash_sim-stamp/dash_sim-install dash_sim-prefix/src/dash_sim-stamp/dash_sim-mkdir dash_sim-prefix/src/dash_sim-stamp/dash_sim-patch dash_sim-prefix/src/dash_sim-stamp/dash_sim-update
+
+
+#############################################
+# Utility command for dash_sim-build
+
+build dash_sim-build: phony CMakeFiles/dash_sim-build dash_sim-prefix/src/dash_sim-stamp/dash_sim-build dash_sim-prefix/src/dash_sim-stamp/dash_sim-configure dash_sim-prefix/src/dash_sim-stamp/dash_sim-force_rebuild dash_sim-prefix/src/dash_sim-stamp/dash_sim-patch dash_sim-prefix/src/dash_sim-stamp/dash_sim-update dash_sim-prefix/src/dash_sim-stamp/dash_sim-download dash_sim-prefix/src/dash_sim-stamp/dash_sim-mkdir
+
+
+#############################################
 # Utility command for pico
 
 build pico: phony CMakeFiles/pico CMakeFiles/pico-complete pico-prefix/src/pico-stamp/pico-done pico-prefix/src/pico-stamp/pico-build pico-prefix/src/pico-stamp/pico-configure pico-prefix/src/pico-stamp/pico-download pico-prefix/src/pico-stamp/pico-force_rebuild pico-prefix/src/pico-stamp/pico-install pico-prefix/src/pico-stamp/pico-mkdir pico-prefix/src/pico-stamp/pico-patch pico-prefix/src/pico-stamp/pico-update
@@ -181,6 +193,98 @@ build CMakeFiles/dash-build | ${cmake_ninja_workdir}CMakeFiles/dash-build: phony
 
 
 #############################################
+# Phony custom command for CMakeFiles/dash_sim
+
+build CMakeFiles/dash_sim | ${cmake_ninja_workdir}CMakeFiles/dash_sim: phony CMakeFiles/dash_sim-complete
+
+
+#############################################
+# Custom command for CMakeFiles/dash_sim-complete
+
+build CMakeFiles/dash_sim-complete dash_sim-prefix/src/dash_sim-stamp/dash_sim-done | ${cmake_ninja_workdir}CMakeFiles/dash_sim-complete ${cmake_ninja_workdir}dash_sim-prefix/src/dash_sim-stamp/dash_sim-done: CUSTOM_COMMAND dash_sim-prefix/src/dash_sim-stamp/dash_sim-install dash_sim-prefix/src/dash_sim-stamp/dash_sim-mkdir dash_sim-prefix/src/dash_sim-stamp/dash_sim-download dash_sim-prefix/src/dash_sim-stamp/dash_sim-update dash_sim-prefix/src/dash_sim-stamp/dash_sim-patch dash_sim-prefix/src/dash_sim-stamp/dash_sim-configure dash_sim-prefix/src/dash_sim-stamp/dash_sim-build dash_sim-prefix/src/dash_sim-stamp/dash_sim-install dash_sim-prefix/src/dash_sim-stamp/dash_sim-force_rebuild
+  COMMAND = cd /home/rozcoe/kamry/code/build && /usr/bin/cmake -E make_directory /home/rozcoe/kamry/code/build/CMakeFiles && /usr/bin/cmake -E touch /home/rozcoe/kamry/code/build/CMakeFiles/dash_sim-complete && /usr/bin/cmake -E touch /home/rozcoe/kamry/code/build/dash_sim-prefix/src/dash_sim-stamp/dash_sim-done
+  DESC = Completed 'dash_sim'
+  restat = 1
+
+
+#############################################
+# Custom command for dash_sim-prefix/src/dash_sim-stamp/dash_sim-build
+
+build dash_sim-prefix/src/dash_sim-stamp/dash_sim-build | ${cmake_ninja_workdir}dash_sim-prefix/src/dash_sim-stamp/dash_sim-build: CUSTOM_COMMAND dash_sim-prefix/src/dash_sim-stamp/dash_sim-configure
+  COMMAND = cd /home/rozcoe/kamry/code/build/build/dash_sim && /usr/bin/cmake --build . && /usr/bin/cmake -E touch /home/rozcoe/kamry/code/build/dash_sim-prefix/src/dash_sim-stamp/dash_sim-build
+  DESC = Performing build step for 'dash_sim'
+  restat = 1
+
+
+#############################################
+# Custom command for dash_sim-prefix/src/dash_sim-stamp/dash_sim-configure
+
+build dash_sim-prefix/src/dash_sim-stamp/dash_sim-configure | ${cmake_ninja_workdir}dash_sim-prefix/src/dash_sim-stamp/dash_sim-configure: CUSTOM_COMMAND dash_sim-prefix/tmp/dash_sim-cfgcmd.txt dash_sim-prefix/src/dash_sim-stamp/dash_sim-patch dash_sim-prefix/src/dash_sim-stamp/dash_sim-force_rebuild
+  COMMAND = cd /home/rozcoe/kamry/code/build/build/dash_sim && /usr/bin/cmake -DBUILD_NATIVE_DASH=ON -DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/rozcoe/kamry/code/build/binaries/pi -GNinja -S /home/rozcoe/kamry/code/apps/dash_sim -B /home/rozcoe/kamry/code/build/build/dash_sim && /usr/bin/cmake -E touch /home/rozcoe/kamry/code/build/dash_sim-prefix/src/dash_sim-stamp/dash_sim-configure
+  DESC = Performing configure step for 'dash_sim'
+  restat = 1
+
+
+#############################################
+# Custom command for dash_sim-prefix/src/dash_sim-stamp/dash_sim-download
+
+build dash_sim-prefix/src/dash_sim-stamp/dash_sim-download | ${cmake_ninja_workdir}dash_sim-prefix/src/dash_sim-stamp/dash_sim-download: CUSTOM_COMMAND dash_sim-prefix/src/dash_sim-stamp/dash_sim-source_dirinfo.txt dash_sim-prefix/src/dash_sim-stamp/dash_sim-mkdir
+  COMMAND = cd /home/rozcoe/kamry/code/build && /usr/bin/cmake -E echo_append && /usr/bin/cmake -E touch /home/rozcoe/kamry/code/build/dash_sim-prefix/src/dash_sim-stamp/dash_sim-download
+  DESC = No download step for 'dash_sim'
+  restat = 1
+
+
+#############################################
+# Custom command for dash_sim-prefix/src/dash_sim-stamp/dash_sim-force_rebuild
+
+build dash_sim-prefix/src/dash_sim-stamp/dash_sim-force_rebuild | ${cmake_ninja_workdir}dash_sim-prefix/src/dash_sim-stamp/dash_sim-force_rebuild: CUSTOM_COMMAND
+  COMMAND = cd /home/rozcoe/kamry/code/build && /usr/bin/cmake -E echo "Checking Dashboard modifications..."
+  DESC = Performing force_rebuild step for 'dash_sim'
+
+
+#############################################
+# Custom command for dash_sim-prefix/src/dash_sim-stamp/dash_sim-install
+
+build dash_sim-prefix/src/dash_sim-stamp/dash_sim-install | ${cmake_ninja_workdir}dash_sim-prefix/src/dash_sim-stamp/dash_sim-install: CUSTOM_COMMAND dash_sim-prefix/src/dash_sim-stamp/dash_sim-build
+  COMMAND = cd /home/rozcoe/kamry/code/build/build/dash_sim && /usr/bin/cmake -E echo_append && /usr/bin/cmake -E touch /home/rozcoe/kamry/code/build/dash_sim-prefix/src/dash_sim-stamp/dash_sim-install
+  DESC = No install step for 'dash_sim'
+  restat = 1
+
+
+#############################################
+# Custom command for dash_sim-prefix/src/dash_sim-stamp/dash_sim-mkdir
+
+build dash_sim-prefix/src/dash_sim-stamp/dash_sim-mkdir | ${cmake_ninja_workdir}dash_sim-prefix/src/dash_sim-stamp/dash_sim-mkdir: CUSTOM_COMMAND
+  COMMAND = cd /home/rozcoe/kamry/code/build && /usr/bin/cmake -Dcfgdir= -P /home/rozcoe/kamry/code/build/dash_sim-prefix/tmp/dash_sim-mkdirs.cmake && /usr/bin/cmake -E touch /home/rozcoe/kamry/code/build/dash_sim-prefix/src/dash_sim-stamp/dash_sim-mkdir
+  DESC = Creating directories for 'dash_sim'
+  restat = 1
+
+
+#############################################
+# Custom command for dash_sim-prefix/src/dash_sim-stamp/dash_sim-patch
+
+build dash_sim-prefix/src/dash_sim-stamp/dash_sim-patch | ${cmake_ninja_workdir}dash_sim-prefix/src/dash_sim-stamp/dash_sim-patch: CUSTOM_COMMAND dash_sim-prefix/src/dash_sim-stamp/dash_sim-patch-info.txt dash_sim-prefix/src/dash_sim-stamp/dash_sim-update
+  COMMAND = cd /home/rozcoe/kamry/code/build && /usr/bin/cmake -E echo_append && /usr/bin/cmake -E touch /home/rozcoe/kamry/code/build/dash_sim-prefix/src/dash_sim-stamp/dash_sim-patch
+  DESC = No patch step for 'dash_sim'
+  restat = 1
+
+
+#############################################
+# Custom command for dash_sim-prefix/src/dash_sim-stamp/dash_sim-update
+
+build dash_sim-prefix/src/dash_sim-stamp/dash_sim-update | ${cmake_ninja_workdir}dash_sim-prefix/src/dash_sim-stamp/dash_sim-update: CUSTOM_COMMAND dash_sim-prefix/src/dash_sim-stamp/dash_sim-update-info.txt dash_sim-prefix/src/dash_sim-stamp/dash_sim-download
+  COMMAND = cd /home/rozcoe/kamry/code/build && /usr/bin/cmake -E echo_append && /usr/bin/cmake -E touch /home/rozcoe/kamry/code/build/dash_sim-prefix/src/dash_sim-stamp/dash_sim-update
+  DESC = No update step for 'dash_sim'
+  restat = 1
+
+
+#############################################
+# Phony custom command for CMakeFiles/dash_sim-build
+
+build CMakeFiles/dash_sim-build | ${cmake_ninja_workdir}CMakeFiles/dash_sim-build: phony dash_sim-prefix/src/dash_sim-stamp/dash_sim-build
+
+
+#############################################
 # Phony custom command for CMakeFiles/pico
 
 build CMakeFiles/pico | ${cmake_ninja_workdir}CMakeFiles/pico: phony CMakeFiles/pico-complete
@@ -284,7 +388,7 @@ build CMakeFiles/pico-build | ${cmake_ninja_workdir}CMakeFiles/pico-build: phony
 #############################################
 # Folder: /home/rozcoe/kamry/code/build
 
-build all: phony dash pico
+build all: phony dash dash_sim pico
 
 # =============================================================================
 # Built-in targets
@@ -293,14 +397,14 @@ build all: phony dash pico
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/rozcoe/kamry/code/CMakeLists.txt /usr/share/cmake-3.31/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.31/Modules/ExternalProject.cmake /usr/share/cmake-3.31/Modules/ExternalProject/PatchInfo.txt.in /usr/share/cmake-3.31/Modules/ExternalProject/RepositoryInfo.txt.in /usr/share/cmake-3.31/Modules/ExternalProject/UpdateInfo.txt.in /usr/share/cmake-3.31/Modules/ExternalProject/cfgcmd.txt.in /usr/share/cmake-3.31/Modules/ExternalProject/mkdirs.cmake.in /usr/share/cmake-3.31/Modules/ExternalProject/shared_internal_commands.cmake /usr/share/cmake-3.31/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.31/Modules/Platform/Linux.cmake /usr/share/cmake-3.31/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.31.6/CMakeSystem.cmake dash-prefix/tmp/dash-mkdirs.cmake pico-prefix/tmp/pico-mkdirs.cmake
+build build.ninja: RERUN_CMAKE | /home/rozcoe/kamry/code/CMakeLists.txt /usr/share/cmake-3.31/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.31/Modules/ExternalProject.cmake /usr/share/cmake-3.31/Modules/ExternalProject/PatchInfo.txt.in /usr/share/cmake-3.31/Modules/ExternalProject/RepositoryInfo.txt.in /usr/share/cmake-3.31/Modules/ExternalProject/UpdateInfo.txt.in /usr/share/cmake-3.31/Modules/ExternalProject/cfgcmd.txt.in /usr/share/cmake-3.31/Modules/ExternalProject/mkdirs.cmake.in /usr/share/cmake-3.31/Modules/ExternalProject/shared_internal_commands.cmake /usr/share/cmake-3.31/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.31/Modules/Platform/Linux.cmake /usr/share/cmake-3.31/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.31.6/CMakeSystem.cmake dash-prefix/tmp/dash-mkdirs.cmake dash_sim-prefix/tmp/dash_sim-mkdirs.cmake pico-prefix/tmp/pico-mkdirs.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/rozcoe/kamry/code/CMakeLists.txt /usr/share/cmake-3.31/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.31/Modules/ExternalProject.cmake /usr/share/cmake-3.31/Modules/ExternalProject/PatchInfo.txt.in /usr/share/cmake-3.31/Modules/ExternalProject/RepositoryInfo.txt.in /usr/share/cmake-3.31/Modules/ExternalProject/UpdateInfo.txt.in /usr/share/cmake-3.31/Modules/ExternalProject/cfgcmd.txt.in /usr/share/cmake-3.31/Modules/ExternalProject/mkdirs.cmake.in /usr/share/cmake-3.31/Modules/ExternalProject/shared_internal_commands.cmake /usr/share/cmake-3.31/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.31/Modules/Platform/Linux.cmake /usr/share/cmake-3.31/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.31.6/CMakeSystem.cmake dash-prefix/tmp/dash-mkdirs.cmake pico-prefix/tmp/pico-mkdirs.cmake: phony
+build /home/rozcoe/kamry/code/CMakeLists.txt /usr/share/cmake-3.31/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.31/Modules/ExternalProject.cmake /usr/share/cmake-3.31/Modules/ExternalProject/PatchInfo.txt.in /usr/share/cmake-3.31/Modules/ExternalProject/RepositoryInfo.txt.in /usr/share/cmake-3.31/Modules/ExternalProject/UpdateInfo.txt.in /usr/share/cmake-3.31/Modules/ExternalProject/cfgcmd.txt.in /usr/share/cmake-3.31/Modules/ExternalProject/mkdirs.cmake.in /usr/share/cmake-3.31/Modules/ExternalProject/shared_internal_commands.cmake /usr/share/cmake-3.31/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.31/Modules/Platform/Linux.cmake /usr/share/cmake-3.31/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.31.6/CMakeSystem.cmake dash-prefix/tmp/dash-mkdirs.cmake dash_sim-prefix/tmp/dash_sim-mkdirs.cmake pico-prefix/tmp/pico-mkdirs.cmake: phony
 
 
 #############################################

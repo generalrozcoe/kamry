@@ -1,0 +1,4 @@
+# ninja log v5
+12	4339	1781931497023455685	CMakeFiles/dash_sim.dir/src/rcan.cpp.o	c05f2bbf8eaad868
+3	4701	1781931497387470697	CMakeFiles/dash_sim.dir/src/main.cpp.o	dae111f7706cd2c7
+4703	4994	1781931497675482575	/home/rozcoe/kamry/code/build/binaries/pi/dash_sim	8304dda5907b5efe

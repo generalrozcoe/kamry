@@ -25,27 +25,23 @@ rCan::rCan(std::string connect){
 	fcntl(s, F_SETFL, O_NONBLOCK);
 };
 	
-void rCan::canRead(){
-    int nbytes = read(s, &frame, sizeof(struct can_frame));
-    if (nbytes < 0) {
-        if (errno == EAGAIN || errno == EWOULDBLOCK) {
-            // No data right now, just return/continue to render
-            return; 
-        } else {
-            perror("Read error");
-        }
+bool rCan::canRead(uint32_t& out_msg_id, uint8_t* dest_bytes) {
+    struct can_frame socket_frame; //
+    
+    // Non-blocking or blocking read on the SocketCAN file descriptor
+    int bytes_read = read(this->s, &socket_frame, sizeof(struct can_frame)); //
+    if (bytes_read < sizeof(struct can_frame)) {
+        return false; // No complete network packet ready right now
     }
 
-    // NEW: Capture the real-time ID and raw bytes array
-    this->current_id = frame.can_id;
-    for (int i = 0; i < 8; i++) {
-        this->current_raw_bytes[i] = frame.data[i];
-    }
+    // Pass the message ID out to the execution engine loop context
+    out_msg_id = socket_frame.can_id;
 
-    // Keep your legacy grid matrix populated for safety/backwards compatibility
-    for (int i = 0; i < 8; i++){
-        data[frame.can_id-512][i] = frame.data[i];
-    }
+    // 🛠️ SKIP THE MIDDLEMAN: 
+    // Copy the raw 8 payload data bytes straight to the memory target layout address!
+    std::memcpy(dest_bytes, socket_frame.data, 8); 
+    
+    return true;
 }
 void rCan::closeSocket(){
 	close(s);

@@ -1,0 +1,9 @@
+# ninja log v5
+6	186	1781931502611686143	CMakeFiles/dash.dir/src/common.cpp.o	b883e2504beadafb
+186	1090	1781931503523723756	_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o	7947ea86ec5f69f3
+10	1105	1781931503535724250	_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o	a88d88a5e5f16a21
+8	91286	1781931593715443331	CMakeFiles/dash.dir/src/rcan.cpp.o	94c531d973ad30a
+12	91318	1781931593731443991	_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o	fe8300448e6412dc
+91318	125699	1781931627944855016	_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Vector3.cpp.o	388e384af7d78135
+1105	137920	1781931640337366111	_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Utils.cpp.o	51256ca0dab0873
+91288	138793	1781931641217402405	_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Vector2.cpp.o	ba1216f718ee0974

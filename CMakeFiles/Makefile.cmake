@@ -10,6 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.31.6/CMakeSystem.cmake"
   "CMakeLists.txt"
   "dash-prefix/tmp/dash-mkdirs.cmake"
+  "dash_sim-prefix/tmp/dash_sim-mkdirs.cmake"
   "pico-prefix/tmp/pico-mkdirs.cmake"
   "/usr/share/cmake-3.31/Modules/CMakeGenericSystem.cmake"
   "/usr/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake"
@@ -40,6 +41,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "dash-prefix/src/dash-stamp/dash-update-info.txt"
   "dash-prefix/src/dash-stamp/dash-patch-info.txt"
   "dash-prefix/tmp/dash-cfgcmd.txt"
+  "dash_sim-prefix/tmp/dash_sim-mkdirs.cmake"
+  "dash_sim-prefix/src/dash_sim-stamp/dash_sim-source_dirinfo.txt"
+  "dash_sim-prefix/src/dash_sim-stamp/dash_sim-update-info.txt"
+  "dash_sim-prefix/src/dash_sim-stamp/dash_sim-patch-info.txt"
+  "dash_sim-prefix/tmp/dash_sim-cfgcmd.txt"
   "pico-prefix/tmp/pico-mkdirs.cmake"
   "pico-prefix/src/pico-stamp/pico-source_dirinfo.txt"
   "pico-prefix/src/pico-stamp/pico-update-info.txt"
@@ -52,6 +58,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/dash.dir/DependInfo.cmake"
   "CMakeFiles/dash-build.dir/DependInfo.cmake"
+  "CMakeFiles/dash_sim.dir/DependInfo.cmake"
+  "CMakeFiles/dash_sim-build.dir/DependInfo.cmake"
   "CMakeFiles/pico.dir/DependInfo.cmake"
   "CMakeFiles/pico-build.dir/DependInfo.cmake"
   )

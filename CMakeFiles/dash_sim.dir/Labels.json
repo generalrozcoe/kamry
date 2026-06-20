@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/rozcoe/kamry/code/CMakeFiles/dash_sim"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/CMakeFiles/dash_sim.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/CMakeFiles/dash_sim-complete.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/dash_sim-prefix/src/dash_sim-stamp/dash_sim-build.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/dash_sim-prefix/src/dash_sim-stamp/dash_sim-configure.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/dash_sim-prefix/src/dash_sim-stamp/dash_sim-download.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/dash_sim-prefix/src/dash_sim-stamp/dash_sim-force_rebuild.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/dash_sim-prefix/src/dash_sim-stamp/dash_sim-install.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/dash_sim-prefix/src/dash_sim-stamp/dash_sim-mkdir.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/dash_sim-prefix/src/dash_sim-stamp/dash_sim-patch.rule"
+		},
+		{
+			"file" : "/home/rozcoe/kamry/code/dash_sim-prefix/src/dash_sim-stamp/dash_sim-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dash_sim"
+		],
+		"name" : "dash_sim"
+	}
+}

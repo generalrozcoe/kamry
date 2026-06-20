@@ -11,7 +11,6 @@
 #include <stdio.h>
 #include <unistd.h> // For close()
 #include <map>
-#include "pid.hpp"
 #include <fcntl.h>
 
 class rCan {
@@ -30,7 +29,7 @@ void socketCreate();
 	
 	void networkBind();
 	rCan(std::string connect);
-	void canRead();
+bool canRead(uint32_t& , uint8_t* );
 	void closeSocket();
 	
 	

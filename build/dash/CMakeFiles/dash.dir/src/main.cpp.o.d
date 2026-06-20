@@ -275,9 +275,8 @@ CMakeFiles/dash.dir/src/main.cpp.o: \
  /home/rozcoe/kamry/code/build/dash/_deps/sfml-src/include/SFML/System/MemoryInputStream.hpp \
  /home/rozcoe/kamry/code/build/dash/_deps/sfml-src/include/SFML/System/Sleep.hpp \
  /home/rozcoe/kamry/code/apps/dash/include/gauge.hpp \
- /home/rozcoe/kamry/code/apps/dash/include/pid.hpp \
- /usr/include/c++/12/iostream /usr/include/c++/12/cmath \
- /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/c++/12/cmath /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
@@ -299,7 +298,10 @@ CMakeFiles/dash.dir/src/main.cpp.o: \
  /usr/include/c++/12/tr1/poly_laguerre.tcc \
  /usr/include/c++/12/tr1/riemann_zeta.tcc \
  /home/rozcoe/kamry/code/apps/dash/include/common.hpp \
- /usr/include/c++/12/math.h \
+ /usr/include/c++/12/math.h /usr/include/c++/12/iostream \
+ /usr/include/c++/12/map /usr/include/c++/12/bits/stl_tree.h \
+ /usr/include/c++/12/bits/stl_map.h \
+ /usr/include/c++/12/bits/stl_multimap.h \
  /home/rozcoe/kamry/code/apps/dash/include/rcan.hpp \
  /usr/include/c++/12/cstring /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/sys/socket.h \
@@ -336,15 +338,12 @@ CMakeFiles/dash.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h /usr/include/c++/12/map \
- /usr/include/c++/12/bits/stl_tree.h /usr/include/c++/12/bits/stl_map.h \
- /usr/include/c++/12/bits/stl_multimap.h /usr/include/fcntl.h \
+ /usr/include/linux/close_range.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/linux/falloc.h /usr/include/x86_64-linux-gnu/bits/stat.h \
  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
- /home/rozcoe/kamry/code/apps/dash/include/pid.hpp \
- /home/rozcoe/kamry/code/apps/dash/include/telemetry.hpp \
  /home/rozcoe/kamry/code/libraries/can/can.hpp \
  /home/rozcoe/kamry/code/libraries/can_bcm/can_bcm.hpp \
- /home/rozcoe/kamry/code/libraries/can_ecu/can_ecu.hpp
+ /home/rozcoe/kamry/code/libraries/can_ecu/can_ecu.hpp \
+ /usr/include/printf.h

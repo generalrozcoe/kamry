@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/dash_sim.dir/src/main.cpp.o CMakeFiles/dash_sim.dir/src/rcan.cpp.o -o /home/rozcoe/kamry/code/binaries/pi/dash_sim

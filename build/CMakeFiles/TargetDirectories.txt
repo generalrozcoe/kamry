@@ -1,5 +1,7 @@
 /home/rozcoe/kamry/code/build/CMakeFiles/dash.dir
 /home/rozcoe/kamry/code/build/CMakeFiles/dash-build.dir
+/home/rozcoe/kamry/code/build/CMakeFiles/dash_sim.dir
+/home/rozcoe/kamry/code/build/CMakeFiles/dash_sim-build.dir
 /home/rozcoe/kamry/code/build/CMakeFiles/pico.dir
 /home/rozcoe/kamry/code/build/CMakeFiles/pico-build.dir
 /home/rozcoe/kamry/code/build/CMakeFiles/edit_cache.dir
